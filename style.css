@@ -1,0 +1,126 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #003395;
+    width: 1440px;
+    height: 75px;
+    padding-left: 147px;
+    margin-bottom: 56px;
+}
+
+.nav {
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    transition: 1s;
+    text-align: center;
+}
+
+.nav:hover {
+    transform: scale(2, 0.5);
+    color: #f37676;
+}
+
+.image {
+    width: 1440px;
+    height: 372px;
+    background-image: url('image/204398-OZ3P4A-964.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loca {
+    padding-left: 145px;
+    padding-top: 120px;
+    margin-bottom: 27px;
+    color: #003395;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 54px;
+}
+
+.Insert {
+    padding-left: 148px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.article {
+    padding-left: 147px;
+    padding-right: 30px;
+    padding-bottom: 62px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 725px;
+    height: 120px;
+    padding-bottom: 25px;
+}
+
+.heading {
+    width: 725px;
+    margin: 0;
+    margin-bottom: 16px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 27px;
+    color: #003395;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+}
+
+.aside2 {
+    padding-bottom: 25px;
+    border: 2px solid #33008D;
+    padding: 19px;
+    margin-bottom: 55px;
+}
+
+.News {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin: auto;
+    margin-bottom: 16px;
+    background-color: #24B0FF;
+    color: white;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1440px;
+    height: 148px;
+    padding-top: 45px;
+    padding-right: 147px;
+    color: #FCFCFC;
+    background-color: #003395;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 11.7px;
+}

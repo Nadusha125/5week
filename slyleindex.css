@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(170, 172, 175);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    background-color: bisque;
+}
+
+.div {
+    width: 15%;
+    height: 25%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.divblok {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.blok1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.blok22 {
+    width: 45%;
+    height: 90%;
+    text-align: center;
+}
+
+.blok2 {
+    height: 11vh;
+    text-align: center;
+}
+
+.blok22,
+.blok2 {
+    background-color: beige;
+    padding: 15px;
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(170, 172, 175);
+    height: 70px;
+    padding: 10px 15px;
+}
+
+.footerblok {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: white;
+}
